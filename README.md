@@ -7,6 +7,10 @@
  - git push -u origin 分支 ------将本地代码推到远程分支
  - git remote -v 查看当前关联的库
  - git remote rm origin 移除当前关联的库
+ - git status 查看库的状态
+ - git diff 查看修改的内容
+ - git log 查看git提交日志
+ - git reflog 记录每一次git的命令 
  # vue环境搭建打包部署
  - 1.首先准备的东西
  - a.安装node js（下载安装node 一路回车就可以）
