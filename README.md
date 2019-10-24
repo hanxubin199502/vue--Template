@@ -22,10 +22,10 @@
  - e.到这一步项目就创建成功了只需要执行cnpm(npm) run dev 启动项目
   3.项目部署和打包 cnpm run build
  # 从github建立仓库到本地关联到库再到本地项目上传到库
- -1.首先登陆github点击右上角加号---New repository---填写项目名称（这里有需要
+ - 1.首先登陆github点击右上角加号---New repository---填写项目名称（这里有需要
  设置权限的地方就是控制所有人可见还是隐私）---点击Create repository---记住这
  个ssh的地址（关联的时候会用到）
- -2.这里就需要找到你本地项目的根目录（首次关联还没有开发项目直接新建文件夹）
+ - 2.这里就需要找到你本地项目的根目录（首次关联还没有开发项目直接新建文件夹）
  右击选择 git bash here(这里打开后如果不是根目录则需要cd到根目录)---执行
  git init --- 执行git add . --- 执行git commit -m '备注' --- 执行
  git remote add origin ssh地址 --- git push origin -u master
